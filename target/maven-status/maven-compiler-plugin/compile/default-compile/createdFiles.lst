@@ -1,0 +1,11 @@
+itemchecker\itemtracker\EventUtils.class
+itemchecker\itemtracker\Track.class
+itemchecker\itemtracker\Tracker.class
+itemchecker\itemtracker\TrackerData.class
+itemchecker\itemtracker\TrackerGUI.class
+itemchecker\itemtracker\FileUtils.class
+itemchecker\itemtracker\MessageHandler.class
+itemchecker\itemtracker\DelayedTask.class
+itemchecker\itemtracker\ItemTracker.class
+itemchecker\itemtracker\Lore.class
+itemchecker\itemtracker\FileModifier.class

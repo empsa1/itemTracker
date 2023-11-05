@@ -1,0 +1,29 @@
+name: itemTracker
+version: '1.0'
+main: itemchecker.itemtracker.ItemTracker
+authors: [eportela]
+description: plugin to track specific items in a minecraft server 1.12.2
+website: https://github.com/empsa1
+commands:
+  tracker:
+    description: displays a custom GUI with the information of the owners and the items being tracked
+    usage: /tracker
+    permission: itemTracker.tracker
+  track:
+    description: track specific items in a minecraft server
+    usage: /track
+    permission: itemTracker.track
+  lore:
+    description: changes the lore of the item in the main hand
+    usage: /lore
+    permission: itemTracker.lore
+permissions:
+  itemTracker.track:
+    description: track specific items in a minecraft server
+    default: op
+  itemTracker.lore:
+    description: changes the lore of the item in the main hand
+    default: op
+  itemTracker.tracker:
+    description: displays a custom GUI with the information of the owners and the items being tracked
+    default: op
